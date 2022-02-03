@@ -1,0 +1,64 @@
+
+
+h1 {
+    color: white;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.cars {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);  
+}
+
+section {
+    justify-content: center;
+    text-align: left;
+    height: 320px;
+    padding: 50px;
+}
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
+}
+.btn-1 {
+    color: hsl(31, 77%, 52%);
+}
+.SUV {
+    background-color: hsl(184, 100%, 22%);
+}
+.btn-2 {
+    color: hsl(184, 100%, 22%);
+}
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
+}
+.btn-3 {
+    color: hsl(179, 100%, 13%);
+}
+
+.car-icon {
+    
+}
+
+button {
+    border-radius: 25px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
